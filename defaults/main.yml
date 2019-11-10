@@ -3,6 +3,8 @@ journalbeat_repo: "https://copr-be.cloud.fedoraproject.org/results/bcdonadio/jou
 journalbeat_repokey: "https://copr-be.cloud.fedoraproject.org/results/bcdonadio/journalbeat/pubkey.gpg"
 journalbeat_repo_enable: true
 
+journalbeat_config_dest: /etc/journalbeat.yml
+
 # Use the following variables to simplified setup
 journalbeat_elasticsearch: false
 journalbeat_logstash: false
